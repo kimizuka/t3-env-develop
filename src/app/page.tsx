@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-import { env } from "@/app/env";
+import { env } from "@/app/env.mjs";
 
 console.log(env.NEXT_PUBLIC_GREETING);
 
